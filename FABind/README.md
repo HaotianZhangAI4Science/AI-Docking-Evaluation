@@ -5,9 +5,6 @@ Refer to the original paper or `FABIND-README.md` for more details.
 ## Installation
 
 ```sh
-sudo apt-get install git-lfs # run this if you have not installed git-lfs
-git lfs install
-git clone https://github.com/QizhiPei/FABind.git --recursive
 conda create --name fabind python=3.8
 conda activate fabind
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch

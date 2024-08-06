@@ -1,15 +1,13 @@
 
-# FABind
-Refer to the original paper or `FABIND-README.md` for more details.
+# FABindPlus
+Refer to the original paper or `FABINDPLUS-README.md` for more details.
 
 ## Installation
 
 ```sh
-sudo apt-get install git-lfs # run this if you have not installed git-lfs
-git lfs install
-git clone https://github.com/QizhiPei/FABind.git --recursive
 conda create --name fabind python=3.8
 conda activate fabind
+conda install -c conda-forge graph-tool -y
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_cluster-1.6.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_scatter-2.1.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
@@ -18,9 +16,9 @@ pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_spline_conv-1.2.
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/pyg_lib-0.2.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 pip install torch-geometric==2.4.0
 pip install torchdrug==0.1.2 torchmetrics==0.10.2 tqdm mlcrate pyarrow accelerate Bio lmdb fair-esm tensorboard
-pip install fair-esm
+pip install wandb spyrmsd
 pip install rdkit-pypi==2021.03.4
-conda install -c conda-forge openbabel # install openbabel to save .mol2 file and .sdf file at the same time
+conda install -c conda-forge openbabel 
 ```
 
 ## Test the Pre-trained Model on Posebusters

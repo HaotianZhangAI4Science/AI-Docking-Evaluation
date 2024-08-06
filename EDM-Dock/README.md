@@ -5,7 +5,6 @@ Refer to the original paper or `EDM-Dock-README.MD` for more details.
 ## Installation
 
 ```sh
-git clone https://github.com/HaotianZhangAI4Science/AI-Docking-Evaluation.git
 cd AI-Docking-Evaluation/EDM-Dock
 conda env create -f environment.yaml -n edm-dock
 conda activate edm-dock
