@@ -1,0 +1,14 @@
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/megagatlingpea/workdir/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ./posebusters_benchmark/docking_results --index-csv /mnt/data/posebusters_fabindplus/ligands.csv --preprocess-dir /mnt/data/posebusters_fabindplus/temp_files
+data point: 428
+FABind plus
+Begin inference
+End infer, time spent: 101.85455131530762
