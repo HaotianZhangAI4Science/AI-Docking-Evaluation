@@ -9,7 +9,7 @@ predict_by_FlexPose(
     prepare_data_with_multi_cpu=True,                                  # prepare data with multi-cpu
     device='cuda:0',                                                   # device
     structure_output_path='./posebusters_benchmark',                   # structure output
-    output_result_path='./posebusters_benchmark/posebusters_rmsd.csv', # record output
+    output_result_path='./posebusters_rmsd.csv'                        # record output
 )
 
 
