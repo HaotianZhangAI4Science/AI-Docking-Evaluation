@@ -22,7 +22,7 @@ You can complete this process by running the notebook `write_csv.ipynb` after up
 ```sh
 ./docking.sh # Details can be found in the shell script
 ```
-The final docked poses will be saved in the folder `./posebusters_benchmark/docking_results` as `[ID].sdf and [ID].mol2`.
+The final docked poses will be saved in the folder `./posebusters_benchmark` as `[idx].pdb` which includes the ligand pose in the pdb file.
 
 #### Step 4: Calculate RMSD without Alignment
 
