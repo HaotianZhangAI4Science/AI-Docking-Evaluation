@@ -56,4 +56,5 @@ The final docked poses will be saved in the folder `./posebusters_benchmark/dock
 You can complete this process by running the notebook `rmsd_unaligned.ipynb` after updating the path in the script. We use the package `networkx` to align the graphs generated from the docked and real poses.
 
 ## Claims
-Fabind is a blind docking model, so we calculate the RMSD between the ligand in the ground truth and the ligand in the docked pose without alignment. If certain docked poses cannot pass the rdkit filter, we will not calculate the RMSD and replace the RMSD value with -1.
+Fabind is a blind docking model, so we calculate the RMSD between the ligand in the ground truth and the ligand in the docked pose without alignment. If certain docked poses cannot pass the rdkit filter, we will not calculate the RMSD by `rmsd_unaligned.ipynb` and replace the RMSD value with -1. Also, we write a script `rmsd_unaligned_nordkit.ipynb` to calculate the RMSD without rdkit filter.
+
